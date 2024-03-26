@@ -71,8 +71,8 @@ def pie_chart():
         values='TotalHoursWorkOut (Sum)',
         names= 'Work Location',
         labels= {'Work Location': 'Location','TotalHoursWorkOut (Sum)':'Output Hours'},
-        width=400,
-        height=400
+        width=300,
+        height=300
     )
     st.plotly_chart(fig3, use_container_width=True)
 
