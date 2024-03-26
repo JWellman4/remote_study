@@ -74,7 +74,7 @@ def pie_chart():
         width=300,
         height=300
     )
-    st.plotly_chart(fig3, use_container_width=True)
+    st.plotly_chart(fig3)
 
 def scatter_chart():
     fig4 = px.scatter(
