@@ -70,7 +70,9 @@ def pie_chart():
         loc_filtered_df_grouped,
         values='TotalHoursWorkOut (Sum)',
         names= 'Work Location',
-        labels= {'Work Location': 'Location','TotalHoursWorkOut (Sum)':'Output Hours'}
+        labels= {'Work Location': 'Location','TotalHoursWorkOut (Sum)':'Output Hours'},
+        width=400,
+        height=400
     )
     st.plotly_chart(fig3, use_container_width=True)
 
